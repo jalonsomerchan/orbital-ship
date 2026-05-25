@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Laberinto Espacial Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="hud" class="hidden">
+        <span id="hud-level">NIVEL: 1</span>
+        <span id="hud-dist">META: --</span>
+    </div>
+
+    <div id="ui-layer">
+        <!-- Pantalla de Inicio / Fin -->
+        <div id="menu-screen" class="screen">
+            <h1 id="menu-title">Orbital ship</h1>
+            <p id="menu-desc">Controla la nave con el joystick.<br>Esquiva los peligros en los pasillos del
+                laberinto.<br>¡Aprovecha la inercia para deslizarte con total fluidez!</p>
+            <button id="start-btn">INICIAR</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
