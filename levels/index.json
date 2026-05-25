@@ -1,0 +1,11 @@
+{
+  "levels": [
+    { "file": "level-01.json" },
+    { "file": "level-02.json" },
+    { "file": "level-03.json" },
+    { "file": "level-04.json" },
+    { "file": "level-05.json" },
+    { "file": "level-06.json" },
+    { "file": "level-07.json" }
+  ]
+}

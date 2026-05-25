@@ -1,0 +1,10 @@
+{
+  "level": 2,
+  "name": "Anillos Cruzados",
+  "rings": [
+    { "pos": 1, "distance": 160, "gate_start_angle": 0, "gate_end_angle": 40, "velocity": 0.20, "walls": [90, 270], "objects": [{ "bomb": 180 }, { "gift": 300 }] },
+    { "pos": 2, "distance": 310, "gate_start_angle": 180, "gate_end_angle": 220, "velocity": -0.15, "walls": [30, 120, 240, 330], "objects": [{ "bomb": 60 }, { "bomb": 280 }, { "gift": 150 }] },
+    { "pos": 3, "distance": 460, "gate_start_angle": 90, "gate_end_angle": 130, "velocity": 0.22, "walls": [45, 135, 225, 315], "objects": [{ "bomb": 0 }, { "bomb": 180 }, { "power": 270 }, { "gift": 330 }] },
+    { "pos": 4, "distance": 610, "gate_start_angle": 270, "gate_end_angle": 310, "velocity": -0.12, "walls": [0, 60, 120, 180, 240], "objects": [{ "bomb": 45 }, { "bomb": 135 }, { "bomb": 225 }, { "gift": 90 }] }
+  ]
+}
