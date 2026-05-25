@@ -128,6 +128,19 @@ El agente debe:
 - Evitar reordenar código sin necesidad, porque dificulta revisar el diff.
 - No borrar comentarios útiles, documentación o tests salvo que estén obsoletos y se justifique.
 
+### Estrategia recomendada para editar ficheros grandes con GitHub API
+
+- Para ficheros pequeños o medianos, usar `update_file` o `create_blob` con el contenido final completo.
+- Para ficheros grandes, evitar reescrituras completas cuando sea posible.
+- Hacer cambios localizados sobre ficheros existentes, conservando el resto intacto.
+- No crear ficheros auxiliares solo para esquivar limitaciones de la herramienta.
+- Si un fichero grande necesita una modificación compleja, preferir dividir antes por arquitectura real: módulos, datos, helpers o componentes con responsabilidad clara.
+- Si una llamada falla por tamaño o bloqueo, intentar:
+  1. Reducir el cambio al mínimo.
+  2. Crear blobs por fichero, no muchos ficheros en una sola llamada.
+  3. Separar el cambio en commits pequeños.
+  4. Mantener el resultado final previsto, sin meter workarounds raros.
+
 ### Pull requests creadas mediante GitHub API
 
 Toda PR creada por IA debe incluir:
