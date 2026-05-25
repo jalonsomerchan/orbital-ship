@@ -1,0 +1,10 @@
+{
+  "level": 4,
+  "name": "Espiral Binaria",
+  "rings": [
+    { "pos": 1, "distance": 155, "gate_start_angle": 250, "gate_end_angle": 292, "velocity": 0.24, "walls": [35, 170, 310], "objects": [{ "bomb": 85 }, { "gift": 205 }] },
+    { "pos": 2, "distance": 315, "gate_start_angle": 65, "gate_end_angle": 108, "velocity": -0.20, "walls": [10, 125, 230, 330], "objects": [{ "bomb": 160 }, { "enemy": 285 }, { "power": 345 }] },
+    { "pos": 3, "distance": 475, "gate_start_angle": 180, "gate_end_angle": 225, "velocity": 0.18, "walls": [55, 155, 255, 345], "objects": [{ "bomb": 25 }, { "bomb": 120 }, { "gift": 300 }] },
+    { "pos": 4, "distance": 640, "gate_start_angle": 320, "gate_end_angle": 358, "velocity": -0.15, "walls": [75, 145, 215, 285], "objects": [{ "bomb": 40 }, { "enemy": 190 }, { "gift": 250 }] }
+  ]
+}
