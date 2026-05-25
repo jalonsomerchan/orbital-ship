@@ -1,0 +1,11 @@
+{
+  "level": 5,
+  "name": "Cinturón de Meteoros",
+  "rings": [
+    { "pos": 1, "distance": 165, "gate_start_angle": 115, "gate_end_angle": 158, "velocity": -0.22, "walls": [15, 200, 300], "objects": [{ "bomb": 60 }, { "gift": 250 }] },
+    { "pos": 2, "distance": 330, "gate_start_angle": 300, "gate_end_angle": 342, "velocity": 0.24, "walls": [50, 135, 225, 315], "objects": [{ "enemy": 90 }, { "bomb": 180 }, { "power": 275 }] },
+    { "pos": 3, "distance": 495, "gate_start_angle": 35, "gate_end_angle": 82, "velocity": -0.18, "walls": [0, 95, 190, 285], "objects": [{ "bomb": 135 }, { "bomb": 235 }, { "gift": 330 }] },
+    { "pos": 4, "distance": 665, "gate_start_angle": 210, "gate_end_angle": 252, "velocity": 0.16, "walls": [40, 110, 180, 250, 320], "objects": [{ "enemy": 20 }, { "bomb": 155 }, { "power": 300 }] },
+    { "pos": 5, "distance": 810, "gate_start_angle": 85, "gate_end_angle": 125, "velocity": -0.10, "walls": [60, 150, 240, 330], "objects": [{ "bomb": 200 }, { "gift": 15 }] }
+  ]
+}

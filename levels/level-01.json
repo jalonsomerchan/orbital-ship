@@ -1,0 +1,47 @@
+{
+  "level": 1,
+  "name": "Iniciación Orbital",
+  "rings": [
+    {
+      "pos": 1,
+      "distance": 160,
+      "gate_start_angle": 80,
+      "gate_end_angle": 120,
+      "velocity": 0.12,
+      "walls": [0, 180, 270],
+      "objects": [
+        { "bomb": 45 },
+        { "power": 150 },
+        { "gift": 220 },
+        { "enemy": 310 }
+      ]
+    },
+    {
+      "pos": 2,
+      "distance": 310,
+      "gate_start_angle": 260,
+      "gate_end_angle": 300,
+      "velocity": -0.16,
+      "walls": [60, 120, 200, 320],
+      "objects": [
+        { "bomb": 15 },
+        { "bomb": 135 },
+        { "gift": 90 },
+        { "power": 180 }
+      ]
+    },
+    {
+      "pos": 3,
+      "distance": 460,
+      "gate_start_angle": 0,
+      "gate_end_angle": 45,
+      "velocity": 0.10,
+      "walls": [90, 180, 270],
+      "objects": [
+        { "bomb": 120 },
+        { "bomb": 240 },
+        { "gift": 315 }
+      ]
+    }
+  ]
+}

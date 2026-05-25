@@ -1,0 +1,10 @@
+{
+  "level": 3,
+  "name": "Nebulosa Serena",
+  "rings": [
+    { "pos": 1, "distance": 150, "gate_start_angle": 35, "gate_end_angle": 78, "velocity": -0.18, "walls": [130, 250], "objects": [{ "gift": 15 }, { "bomb": 210 }] },
+    { "pos": 2, "distance": 300, "gate_start_angle": 200, "gate_end_angle": 245, "velocity": 0.18, "walls": [20, 100, 185, 300], "objects": [{ "power": 70 }, { "bomb": 165 }, { "bomb": 330 }] },
+    { "pos": 3, "distance": 455, "gate_start_angle": 305, "gate_end_angle": 350, "velocity": -0.14, "walls": [45, 145, 245], "objects": [{ "enemy": 95 }, { "gift": 260 }] },
+    { "pos": 4, "distance": 600, "gate_start_angle": 105, "gate_end_angle": 150, "velocity": 0.16, "walls": [0, 80, 190, 285], "objects": [{ "bomb": 35 }, { "bomb": 225 }, { "power": 315 }] }
+  ]
+}
